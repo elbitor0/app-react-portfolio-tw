@@ -16,7 +16,7 @@ const Contact = () => {
           <a href="mailto:erwann.gao@epita.fr" style={{ color: "blue" }}>
             erwann.gao@epita.fr
           </a>
-          . And here is my github{" "}
+          . And here is my{" "}
           <a
             href="https://github.com/elbitor0"
             target="_blank"
