@@ -57,28 +57,26 @@ const Home = () => {
       xl:px-32 
       "
       >
-        <div class="grid grid-cols-3 gap-x-8 gap-y-4">
-          <div>
-            <PortfolioCard
-              title="Fashion web page project"
-              image="../images/project-fashion.jpg"
-              link="./portfolio/fashion/index.html"
-            />
-          </div>
-          <div>
-            <PortfolioCard
-              title="Smoothie web page project"
-              image="../images/project-smoothie.jpg"
-              link="./portfolio/smoothies/index.html"
-            />
-          </div>
-          <div>
-            <PortfolioCard
-              title="Crypto wallet web page project"
-              image="../images/project-crypto-wallet.jpg"
-              link="./portfolio/crypto-wallet/index.html"
-            />
-          </div>
+        <div>
+          <PortfolioCard
+            title="Fashion web page project"
+            image="images/project-fashion.jpg"
+            link="./portfolio/fashion/index.html"
+          />
+        </div>
+        <div>
+          <PortfolioCard
+            title="Smoothie web page project"
+            image="images/project-smoothie.jpg"
+            link="./portfolio/smoothies/index.html"
+          />
+        </div>
+        <div>
+          <PortfolioCard
+            title="Crypto wallet web page project"
+            image="images/project-crypto-wallet.jpg"
+            link="./portfolio/crypto-wallet/index.html"
+          />
         </div>
       </section>
     </>

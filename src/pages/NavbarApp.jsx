@@ -6,7 +6,7 @@ function NavbarApp() {
     <Navbar fluid rounded>
       <Navbar.Brand href="../../">
         <img
-          src="/images/menacing.png"
+          src="images/menacing.png"
           className="mr-3 h-6 sm:h-9"
           alt="Menacing Logo"
         />
