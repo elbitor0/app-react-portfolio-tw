@@ -9,13 +9,6 @@ const Contact = () => {
             <h1 className="mb-4 max-w-2xl text-center text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
               Contact Me
             </h1>
-            {/* Example of an anchor tag with content */}
-            <a
-              href="#"
-              className="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-white focus:ring-4"
-            >
-              Example Link
-            </a>
           </div>
         </div>
       </section>
