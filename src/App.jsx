@@ -9,17 +9,23 @@ import FooterApp from "./pages/FooterApp";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: "url(/images/bg.jpg)" }}>
+    <div className="App" style={{ backgroundImage: "url(images/bg.jpg)" }}>
       <NavbarApp />
       <Routes>
         {/* Use Home component for the root path */}
         <Route index element={<Home />} />
-        <Route path="portfolio" element={<Portfolio />}>
-          {/* Add a nested route for the crypto-wallet */}
-          <Route path="crypto-wallet" element={<CryptoWallet />} />
-        </Route>
-        <Route path="contact" element={<Contact />} />
-        <Route path="privacy" element={<Privacy />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        {/* Add a nested route for the crypto-wallet */}
+        <Route path="portfolio/crypto-wallet" element={<CryptoWallet />} />
+        <Route path="portfolio/smoothies" element={<Smoothies />} />
+        <Route path="portfolio/fashion" element={<Fashion />} />
+        <Route path="portfolio/project-hero" element={<ProjectHero />} />
+        <Route
+          path="portfolio/project-multi-column"
+          element={<ProjectMultiColumn />}
+        />
+        <Route path="portfolio/contact" element={<Contact />} />
+        <Route path="portfolio/privacy" element={<Privacy />} />
       </Routes>
       <FooterApp />
     </div>
@@ -29,11 +35,50 @@ function App() {
 // Define the CryptoWallet component to handle the specific route
 function CryptoWallet() {
   return (
-    <div>
-      {/* Link to the index.html file */}
-      <Link to="/portfolio/crypto-wallet/index.html">Go to Crypto Wallet</Link>
-      {/* Add any other content related to the crypto wallet page */}
-    </div>
+    <iframe
+      src="/app-react-portfolio-tw/portfolio/crypto-wallet/index.html"
+      width={1230}
+      height={500}
+    />
+  );
+}
+
+function Smoothies() {
+  return (
+    <iframe
+      src="/app-react-portfolio-tw/portfolio/smoothies/index.html"
+      width={1230}
+      height={500}
+    />
+  );
+}
+function ProjectHero() {
+  return (
+    <iframe
+      src="/app-react-portfolio-tw/portfolio/project-hero/index.html"
+      width={1230}
+      height={500}
+    />
+  );
+}
+
+function Fashion() {
+  return (
+    <iframe
+      src="/app-react-portfolio-tw/portfolio/fashion/index.html"
+      width={1230}
+      height={500}
+    />
+  );
+}
+
+function ProjectMultiColumn() {
+  return (
+    <iframe
+      src="/app-react-portfolio-tw/portfolio/project-multi-column/index.html"
+      width={1230}
+      height={500}
+    />
   );
 }
 

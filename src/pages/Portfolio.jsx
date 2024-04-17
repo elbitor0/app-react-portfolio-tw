@@ -5,62 +5,67 @@ import PortfolioCard from "./PortfolioCard";
 const Portfolio = () => {
   return (
     <>
-      <section className="lg:py-13 md-pl-2 xl-pl-16 xl:py-22  py-6 pl-8 md:px-14 md:py-12 lg:py-14 2xl:pl-28">
-        <h2 className="mb-1 text-3xl font-semibold tracking-tight text-black md:mb-4 md:max-w-2xl md:text-5xl lg:mb-6 lg:max-w-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl">
-          Erwann's Portfolio
-        </h2>
-        <p
-          className="text-lg leading-relaxed text-black md:max-w-2xl md:text-2xl
-        md:leading-relaxed lg:max-w-3xl lg:text-2xl lg:leading-relaxed xl:max-w-4xl xl:text-3xl xl:leading-relaxed
-        2xl:max-w-4xl 2xl:text-3xl 2xl:leading-relaxed"
-        >
-          You can see in this page my diffrent website project. These have been
-          made during my fourth semester FrontEnd Course in Dorset
-          College,Dublin,Ireland. I learn thanks to these project how to use
-          Javascript, React using Tailwind, Cite, Node.js.
-        </p>
+      <section className="bg-white dark:bg-gray-900">
+        <div class="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
+          <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
+              Erwann's Portfolio
+            </h1>
+            <p class="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+              You can see in this page my diffrent website project. These have
+              been made during my fourth semester FrontEnd Course in Dorset
+              College,Dublin,Ireland. I learn thanks to these project how to use
+              Javascript, React using Tailwind, Cite, Node.js.
+            </p>
+            <a
+              href="#"
+              class="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-white focus:ring-4"
+            ></a>
+          </div>
+        </div>
       </section>
+
       <div class="grid grid-cols-3 gap-x-8 gap-y-4">
         <div>
           <PortfolioCard
             title="Fashion web page project"
             image="images/project-fashion.jpg"
-            link="portfolio/fashion/index.html"
+            link="/portfolio/fashion"
           />
         </div>
         <div>
           <PortfolioCard
             title="Smoothie web page project"
             image="images/project-smoothie.jpg"
-            link="portfolio/smoothies/index.html"
+            link="/portfolio/smoothies"
           />
         </div>
         <div>
           <PortfolioCard
             title="Crypto wallet web page project"
             image="images/project-crypto-wallet.jpg"
-            link="portfolio/crypto-wallet/index.html"
+            link="/portfolio/crypto-wallet"
           />
         </div>
         <div>
           <PortfolioCard
             title="Hero blocks web page project"
             image="images/project-hero.png"
-            link="project-hero/index.html"
+            link="/portfolio/project-hero"
           />
         </div>
         <div>
           <PortfolioCard
             title="Multi-column web page project"
             image="images/project-multi-col.png"
-            link="project-multi-column/index.html"
+            link="/portfolio/project-multi-column"
           />
         </div>
         <div>
           <PortfolioCard
             title="Amazon affiliate web page project"
             image="images/store.png"
-            link="project-multi-column/index.html"
+            link="/portfolio/project-multi-column"
           />
         </div>
       </div>

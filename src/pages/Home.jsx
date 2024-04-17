@@ -13,9 +13,11 @@ const Home = () => {
               Gao Erwann
             </h1>
             <p class="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              You will be able to find to find in this website my Portfolio and
-              my contact. I am available to discuss on any project concerning
-              computer Engineering, just email me!
+              Hello, My name is Erwann Gao, I am a student at Dorset College,
+              Dublin, Welcome to my professional website. You can find in this
+              website my Portfolio and a way to contact me. I am available to
+              discuss on any project concerning computer Engineering, just email
+              me!
             </p>
             <a
               href="#"
@@ -26,17 +28,9 @@ const Home = () => {
       </section>
 
       <section className="lg:py-13 lg:px-42 px-8 py-6 text-center md:px-40 md:py-12 lg:py-14 xl:px-64 xl:py-16 2xl:px-72">
-        <h2 className="mb-1 text-3xl font-semibold tracking-tight text-black md:mb-4 md:text-5xl lg:mb-6 lg:text-5xl xl:text-6xl 2xl:text-6xl">
-          Home Page
+        <h2 className="mb-1 text-3xl font-semibold tracking-tight text-white md:mb-4 md:text-5xl lg:mb-6 lg:text-5xl xl:text-6xl 2xl:text-6xl">
+          Take a Look at my work!
         </h2>
-        <p
-          className="text-lg leading-relaxed text-black md:text-2xl md:leading-relaxed
-        lg:text-2xl lg:leading-relaxed xl:text-3xl xl:leading-relaxed 2xl:text-3xl 2xl:leading-relaxed"
-        >
-          Hello, My name is Erwann Gao, I am a student at Dorset College,
-          Dublin, Welcome to my professional website. Take a Look At my recent
-          work!
-        </p>
       </section>
 
       <section
@@ -55,21 +49,21 @@ const Home = () => {
           <PortfolioCard
             title="Fashion web page project"
             image="images/project-fashion.jpg"
-            link="portfolio/fashion/index.html"
+            link="/portfolio/fashion"
           />
         </div>
         <div>
           <PortfolioCard
             title="Smoothie web page project"
             image="images/project-smoothie.jpg"
-            link="portfolio/smoothies/index.html"
+            link="/portfolio/smoothies"
           />
         </div>
         <div>
           <PortfolioCard
             title="Crypto wallet web page project"
             image="images/project-crypto-wallet.jpg"
-            link="/portfolio/crypto-wallet/"
+            link="portfolio/crypto-wallet"
           />
         </div>
       </section>
