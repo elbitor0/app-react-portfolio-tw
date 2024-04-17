@@ -42,6 +42,7 @@ function ContactForm() {
             className="mt-1 block w-full rounded-md border-gray-300 bg-gray-100 p-2 text-black focus:border-blue-500 focus:ring-blue-500"
             placeholder="Your email"
             required
+            aria-required="true"
           />
         </div>
         <div className="mb-4">
@@ -60,6 +61,7 @@ function ContactForm() {
             rows="4"
             placeholder="Your message"
             required
+            aria-required="true"
           ></textarea>
         </div>
         <div className="text-center">

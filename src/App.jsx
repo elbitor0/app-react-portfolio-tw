@@ -24,8 +24,7 @@ function App() {
           path="portfolio/project-multi-column"
           element={<ProjectMultiColumn />}
         />
-        <Route path="portfolio/contact" element={<Contact />} />
-        <Route path="portfolio/privacy" element={<Privacy />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
       <FooterApp />
     </div>
@@ -55,7 +54,7 @@ function Smoothies() {
 function ProjectHero() {
   return (
     <iframe
-      src="/app-react-portfolio-tw/portfolio/project-hero/index.html"
+      src="/app-react-portfolio-tw/portfolio/project-hero/index-1.html"
       width={1230}
       height={500}
     />
