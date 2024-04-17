@@ -25,42 +25,42 @@ const Portfolio = () => {
           <PortfolioCard
             title="Fashion web page project"
             image="images/project-fashion.jpg"
-            link="./portfolio/fashion/index.html"
+            link="portfolio/fashion/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Smoothie web page project"
             image="images/project-smoothie.jpg"
-            link="./portfolio/smoothies/index.html"
+            link="portfolio/smoothies/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Crypto wallet web page project"
             image="images/project-crypto-wallet.jpg"
-            link="./portfolio/crypto-wallet/index.html"
+            link="portfolio/crypto-wallet/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Hero blocks web page project"
             image="images/project-hero.png"
-            link="./project-hero/index.html"
+            link="project-hero/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Multi-column web page project"
             image="images/project-multi-col.png"
-            link="./project-multi-column/index.html"
+            link="project-multi-column/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Amazon affiliate web page project"
             image="images/store.png"
-            link="./project-multi-column/index.html"
+            link="project-multi-column/index.html"
           />
         </div>
       </div>

@@ -20,21 +20,7 @@ function NavbarApp() {
             Home
           </Link>
         </Navbar.Link>
-        <Navbar.Link>
-          <Link to="/about" activeClassName="active">
-            About
-          </Link>
-        </Navbar.Link>
-        <Navbar.Link>
-          <Link to="/services" activeClassName="active">
-            Services
-          </Link>
-        </Navbar.Link>
-        <Navbar.Link>
-          <Link to="/pricing" activeClassName="active">
-            Pricing
-          </Link>
-        </Navbar.Link>
+
         <Navbar.Link>
           <Link to="/contact" activeClassName="active">
             Contact

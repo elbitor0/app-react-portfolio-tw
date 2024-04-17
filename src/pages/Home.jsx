@@ -22,12 +22,6 @@ const Home = () => {
               class="bg-primary-700 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900 mr-3 inline-flex items-center justify-center rounded-lg px-5 py-3 text-center text-base font-medium text-white focus:ring-4"
             ></a>
           </div>
-          <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
-            <img
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-uiherophone-mockup.png"
-              alt="mockup"
-            />
-          </div>
         </div>
       </section>
 
@@ -61,21 +55,21 @@ const Home = () => {
           <PortfolioCard
             title="Fashion web page project"
             image="images/project-fashion.jpg"
-            link="./portfolio/fashion/index.html"
+            link="portfolio/fashion/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Smoothie web page project"
             image="images/project-smoothie.jpg"
-            link="./portfolio/smoothies/index.html"
+            link="portfolio/smoothies/index.html"
           />
         </div>
         <div>
           <PortfolioCard
             title="Crypto wallet web page project"
             image="images/project-crypto-wallet.jpg"
-            link="./portfolio/crypto-wallet/index.html"
+            link="/portfolio/crypto-wallet/"
           />
         </div>
       </section>

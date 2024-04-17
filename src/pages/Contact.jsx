@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { ContactForm } from "./Form";
 const Contact = () => {
   return (
     <>
@@ -12,20 +12,7 @@ const Contact = () => {
         md:leading-relaxed lg:max-w-3xl lg:text-2xl lg:leading-relaxed xl:max-w-4xl xl:text-3xl xl:leading-relaxed
         2xl:max-w-4xl 2xl:text-3xl 2xl:leading-relaxed"
         >
-          You can contact me via email at{" "}
-          <a href="mailto:erwann.gao@epita.fr" style={{ color: "blue" }}>
-            erwann.gao@epita.fr
-          </a>
-          . And here is my{" "}
-          <a
-            href="https://github.com/elbitor0"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "blue" }}
-          >
-            GitHub
-          </a>
-          .
+          <ContactForm />
         </p>
       </section>
     </>
